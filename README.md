@@ -1,5 +1,5 @@
 # clicker
-Auto-clicker made in modern C++, easy to use.  
+Auto-clicker made in modern C++, easy to use and does NOT take over your mouse!  
 Originally intended for automation tasks in Minecraft.
 ![image](https://raw.githubusercontent.com/Talon-1/Talons-AutoClicker/main/clicker.png)
 
