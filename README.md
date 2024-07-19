@@ -1,6 +1,7 @@
 # clicker
 Auto-clicker made in modern C++, easy to use.  
 Originally intended for automation tasks in Minecraft.
+![image](https://raw.githubusercontent.com/Talon-1/Talons-AutoClicker/main/clicker.png)
 
 ## How to use
 Set your desired time intervals in the provided fields, click "Set Target Application" and click on the application you wish to send mouse clicks to.
