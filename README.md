@@ -19,6 +19,9 @@ To assign a hotkey to turn on/off: click Assign Key and press any single key, an
 ## Bugs or suggestions
 Bugs or suggestions should be reported at the issues section.
 
+## Download
+Download the latest release at the [releases section](https://github.com/Talon-1/Talons-AutoClicker/releases/latest).
+
 ## Compiling
 ### Prerequisites
 Microsoft Visual Studio (Preferably the latest version) with C++ installed.
