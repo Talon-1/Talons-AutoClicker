@@ -109,8 +109,8 @@ public:
         Combo2 = new tCombo(this, "", WS_VISIBLE, 102, 120, 100, 100);
 
         Combo1->AddItem("Left");
-        Combo1->AddItem("Middle");
         Combo1->AddItem("Right");
+        Combo1->AddItem("Middle");
         Combo1->SelectItem(0);
 
         Combo2->AddItem("Single");
@@ -249,49 +249,3 @@ int WINAPI WinMain(HINSTANCE currentInstance, HINSTANCE previousInstance, PSTR c
     MyApp Clicker(NULL, -1, -1, 432, 324, "talon.ico", "", "Talon's Auto-Clicker v1.0 BETA!");
     Clicker.Run();
 }
-
-/* Dialog Studio Table
-dialog new_table {
-  title "New Project"
-  size -1 -1 432 262
-  option pixels
-  box "Click Interval", 1, 4 4 424 68
-  edit "0", 2, 10 22 60 20, right
-  edit "0", 3, 110 22 60 20, right
-  edit "0", 4, 204 22 60 20, right
-  edit "100", 5, 298 22 60 20, right
-  check "Random Offset", 6, 12 46 100 20
-  edit "100", 7, 110 46 60 20, right
-  text "hours", 8, 74 24 32 16
-  text "mins", 9, 174 24 26 16
-  text "secs", 10, 268 24 26 16
-  text "milliseconds", 11, 362 24 60 16
-  text "milliseconds", 12, 174 48 60 16
-  edit "0", 13, 298 46 60 20, right
-  text "Repeat:", 14, 254 48 44 16
-  text "times", 15, 362 48 50 16
-  box "Click Options", 16, 4 76 208 100
-  box "Assign Application", 17, 220 76 208 100
-  box "Cursor Position", 18, 4 180 424 48
-  text "Mouse Button:", 19, 12 94 76 16
-  combo 20, 102 92 100 100, size drop
-  combo 21, 102 120 100 100, size drop
-  text "Click Type:", 22, 12 122 62 16
-  text "Title:", 23, 230 94 32 16
-  edit "Minecraft* 1.20.4", 24, 276 92 140 20, center
-  text "Hwnd:", 25, 230 118 38 16
-  edit "", 26, 276 116 140 20, center
-  check "Use Defined Location", 27, 12 196 130 20
-  edit "0", 28, 272 196 60 20, center
-  edit "0", 29, 356 196 60 20, center
-  text "X:", 30, 250 198 18 16
-  text "Y:", 31, 336 198 18 16
-  button "Get Location", 32, 170 194 74 24
-  button "Set Target Application", 33, 286 140 120 24
-  text "Current Hotkey:", 34, 4 236 80 16
-  edit "`", 35, 88 234 40 20
-  button "Assign Key", 36, 132 232 74 24
-  button "Start", 37, 274 232 74 24
-  button "Stop", 38, 354 232 74 24
-}
-*/
